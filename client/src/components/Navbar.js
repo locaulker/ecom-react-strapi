@@ -21,7 +21,7 @@ const Navbar = () => {
       </NavLink>
 
       {/* Sigin In Link */}
-      <NavLink activeClassName="active" to="/">
+      <NavLink activeClassName="active" exact to="/">
         <Box display="flex" alignItems="center">
           <Box margin={2} height={50} width={50}>
             <Image
